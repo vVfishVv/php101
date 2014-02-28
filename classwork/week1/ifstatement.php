@@ -8,11 +8,11 @@
     <p>
       <?php
         $age = 21;     // Set this to a number greater than 18
-
+        $oldAge ="You're old enought to vote!";
+        
         if ($age > 18) {
-          echo "You're old enough to vote!";
+          echo $oldAge
           }
-       
           else if ($age == 21){
             echo "Toss down a cold one";
           }

@@ -7,13 +7,16 @@
     <p>Complete the if statement</p>
     <p>
       <?php
-        $age = 5;     // Set this to a number greater than 18
+        $age = 21;     // Set this to a number greater than 18
 
         if ($age > 18) {
           echo "You're old enough to vote!";
           }
        
-          else {
+          else if ($age == 21){
+            echo "Toss down a cold one";
+          }
+          else{
 
           echo "You wish that you could vote sucka!";
         

@@ -6,6 +6,17 @@
   <body>
     <p>Create two variables one called $guess and another called $number.</p>
     <?php // Write your else if statement to check if the guess is correct
-    ?>
+    $guess = 10;
+    $number = 20;
+    if ($guess > $number){
+    	echo "Your guess is too high";
+    }
+    else if ($guess < $number){
+    	echo "Your guess is too low";
+    }	
+    	else ($guess == $number) {
+    		echo "Your guess is dead on";
+    }
+        ?>
   </body>
 </html>

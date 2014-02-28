@@ -6,8 +6,22 @@
   <body>
     <p>Write a comparison that is true</p>
     <p>
-      <?php
-      ?>
+      <form>
+        <label>"asking questions"</label><input type ="text" name="firstimput"></input>
+      <?php 
+
+
+      $bodda = 15;
+      $bang = 10; 
+      if ($bodda < $bang) {
+        echo "Bodda Bang";
+        }
+        else
+        {  
+        echo "there is no bodda bang for you -_-";
+        }
+       ?>
+       
     </p>
   </body>
 </html>

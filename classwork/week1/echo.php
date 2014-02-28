@@ -4,7 +4,7 @@
     <title>Echo!</title>
   </head>
   <body>
-    <!-- Add your PHP code in the tag below -->
+    <?php echo "There was some great pie at the store"; ?>
     <h1></h1>
   </body>
 </html>

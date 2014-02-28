@@ -4,7 +4,10 @@
     <title>Strings!</title>
   </head>
   <body>
-    <!-- Add your PHP code in the tag below -->
+    
+    <h3><?php
+    $food = " pie"; 
+     echo "I" . " eat" . $food; ?>
     <p></p>
   </body>
 </html>

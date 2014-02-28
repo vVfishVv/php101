@@ -4,7 +4,11 @@
     <title>Variables!</title>
   </head>
   <body>
-    <!-- Add your PHP code in the tag below -->
-    <p></p>
+<p>
+
+    <$php
+    $fg = "Flash Gordon";
+    $b = "BOOOooooommm";
+	echo $fg . $b; $></p>
   </body>
 </html>

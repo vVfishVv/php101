@@ -12,7 +12,7 @@
 
     <p>Put your first and last name inside the quotes below.</p>
 
-    <p><?php echo ""; ?></p>
+    <p><?php echo "Michael Moore"; ?></p>
 
     <p>This text was not.</p>
   </body>
